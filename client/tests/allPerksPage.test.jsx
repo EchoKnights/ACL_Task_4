@@ -50,6 +50,8 @@ describe('AllPerks page (Directory)', () => {
   - verify the summary text reflects the number of matching perks
   */
 
+  //done
+
   test('lists public perks and responds to merchant filtering', async () => {
     const seededPerk = global.__TEST_CONTEXT__.seededPerk;
 

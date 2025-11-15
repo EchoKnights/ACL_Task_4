@@ -72,6 +72,8 @@ describe('Authentication controller integration', () => {
   - expect the returned user profile to match the registered user
   - store the issued token for use in subsequent tests
   */
+
+  //done
   test('authenticates the same user and issues a fresh JWT', async () => {
     const response = await fetch(`${baseUrl}/auth/login`, {
       method: 'POST',
